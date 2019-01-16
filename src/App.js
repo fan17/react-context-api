@@ -8,12 +8,20 @@ import HeaderUsingHoc from 'Layout/HeaderUsingHoc'
 class App extends Component {
     render() {
         return (
-            <Theme>
-                <Layout>
-                    <HeaderUsingContext />
-                    <HeaderUsingHoc />
-                </Layout>
-            </Theme>
+            <>
+                <Theme>
+                    <Layout>
+                        <HeaderUsingContext />
+                        <HeaderUsingHoc />
+                    </Layout>
+                </Theme>
+                <Theme>
+                    <Layout>
+                        <HeaderUsingContext />
+                        <HeaderUsingHoc />
+                    </Layout>
+                </Theme>
+            </>
         )
     }
 }
